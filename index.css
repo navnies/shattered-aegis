@@ -1,0 +1,58 @@
+body {
+    background-color: #042A2B;
+}
+
+.wrapper {
+    margin-top: 100px;
+}
+
+.title {
+    font-family: 'Ropa Sans', sans-serif;    
+    color: white;
+}
+
+.clock {
+    font-family: 'DotGothic16', sans-serif;
+    background: rgba(0, 0, 0, 0.65);
+    color: #EEE5E9;
+    z-index: 20;
+    height: 100%;
+    width: 80%;
+    position: absolute;
+}
+
+.clock__text {
+    margin: 100px 0 100px 0;
+    text-align: center;
+}
+
+.counter {
+    position: relative;
+    z-index: 1;
+    width: 80%;
+    height: 250px;
+}
+
+.counter__clock {
+    z-index: 200;
+}
+
+.counter img {
+    z-index: 1;
+    object-fit: cover;
+    object-position: top center;
+    width: 80%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 50px auto 50px auto;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+
